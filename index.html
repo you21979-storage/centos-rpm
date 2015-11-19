@@ -4,12 +4,10 @@
 
 centos7
 <pre>
-vi /etc/yum.repos.d/you21979-storage.repo
-[you21979-storage]
-name=you21979-storage
-baseurl=http://you21979-storage.github.io/centos-rpm/centos7
-enabled=0
-gpgcheck=0
+sudo curl http://you21979-storage.github.io/centos-rpm/you21979-storage-centos7.repo > /etc/yum.repos.d/you21979-storage.repo
+yum install nodejs nodejs-npm
+ or 
+yum install nodejs-4.2.2 nodejs-npm-4.2.2
 </pre>
 
 
