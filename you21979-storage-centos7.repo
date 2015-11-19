@@ -1,0 +1,5 @@
+[you21979-storage]
+name=you21979-storage
+baseurl=http://you21979-storage.github.io/centos-rpm/centos7
+enabled=0
+gpgcheck=0
